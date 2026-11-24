@@ -1,0 +1,35 @@
+Leesho Claude Theme
+
+1. Code: MIT License
+
+Copyright (c) 2026 Ali & Leesho
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the source code in this repository (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+hooks/make-colors.js and hooks/make-colors.d.ts are not covered by the
+notice above: they are Claude Code's theme helper, copied unchanged as its
+plugin-authoring guide asks, and remain under their original terms.
+
+2. Character and brand: all rights reserved
+
+The Leesho character (every pixel frame of him in hooks/art.ts and the images
+in assets/) and the Ali & Leesho logo and name are (c) 2026 Ali & Leesho, all
+rights reserved. You may use them only as part of this theme, unchanged, for
+your own use. You may not use them in other works, products or branding
+without written permission.

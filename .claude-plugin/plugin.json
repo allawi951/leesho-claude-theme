@@ -1,0 +1,124 @@
+{
+  "name": "leesho-theme",
+  "version": "0.1.0",
+  "description": "Ali & Leesho pixel theme for Claude Code: Leesho reacts to what Claude is doing in front of a chalkboard with live usage, beside a prayer-times board with Hijri and Gregorian dates.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "calendar": {
+      "type": "string",
+      "title": "Prayer calendar",
+      "description": "ummalqura (Umm al-Qura, default) or hadi (Al-Hadi).",
+      "default": "ummalqura",
+      "options": [
+        "ummalqura",
+        "hadi"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "title": "City",
+      "description": "The city the prayer times are for. Pick custom to give latitude, longitude and UTC offset below.",
+      "default": "makkah",
+      "options": [
+        "makkah",
+        "madinah",
+        "riyadh",
+        "jeddah",
+        "dammam",
+        "khobar",
+        "dhahran",
+        "qatif",
+        "ahsa",
+        "jubail",
+        "hafar",
+        "kharj",
+        "buraydah",
+        "hail",
+        "taif",
+        "yanbu",
+        "tabuk",
+        "abha",
+        "khamis",
+        "baha",
+        "jazan",
+        "najran",
+        "arar",
+        "sakaka",
+        "kuwait",
+        "manama",
+        "doha",
+        "abudhabi",
+        "dubai",
+        "sharjah",
+        "muscat",
+        "baghdad",
+        "basra",
+        "amman",
+        "sanaa",
+        "custom"
+      ]
+    },
+    "latitude": {
+      "type": "number",
+      "title": "Latitude (custom city only)",
+      "description": "For city custom, e.g. 21.42.",
+      "default": 21.4225
+    },
+    "longitude": {
+      "type": "number",
+      "title": "Longitude (custom city only)",
+      "description": "For city custom, e.g. 39.83.",
+      "default": 39.8262
+    },
+    "utcOffset": {
+      "type": "number",
+      "title": "UTC offset in hours (custom city only)",
+      "description": "For city custom, e.g. 3.",
+      "default": 3
+    },
+    "dates": {
+      "type": "string",
+      "title": "Dates shown",
+      "description": "both (Hijri and Gregorian), gregorian or hijri.",
+      "default": "both",
+      "options": [
+        "both",
+        "gregorian",
+        "hijri"
+      ]
+    },
+    "alerts": {
+      "type": "string",
+      "title": "Prayer alerts",
+      "description": "all, none, or the prayers to alert, e.g. fajr,dhuhr,maghrib.",
+      "default": "all"
+    },
+    "prayerBoard": {
+      "type": "boolean",
+      "title": "Show the prayer board",
+      "description": "Off draws the theme without the prayer board and dates.",
+      "default": true
+    }
+  },
+  "author": {
+    "name": "Ali & Leesho",
+    "url": "https://github.com/allawi951"
+  },
+  "homepage": "https://github.com/allawi951/leesho-claude-theme",
+  "repository": "https://github.com/allawi951/leesho-claude-theme",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "claude-code",
+    "claude-code-theme",
+    "claude-code-plugin",
+    "claude-desktop",
+    "pixel-art",
+    "theme",
+    "prayer-times",
+    "islamic",
+    "hijri",
+    "arabic",
+    "umm-al-qura",
+    "mascot"
+  ]
+}

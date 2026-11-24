@@ -1,0 +1,16 @@
+{
+  "name": "leesho-claude-theme",
+  "owner": {
+    "name": "Ali & Leesho"
+  },
+  "metadata": {
+    "description": "Leesho pixel-art theme for Claude Code with offline prayer times, Hijri dates and live usage."
+  },
+  "plugins": [
+    {
+      "name": "leesho-theme",
+      "source": "./",
+      "description": "Ali & Leesho pixel theme for Claude Code: Leesho reacts to what Claude is doing in front of a chalkboard with live usage, beside a prayer-times board with Hijri and Gregorian dates."
+    }
+  ]
+}
